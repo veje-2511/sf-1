@@ -1,0 +1,240 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: white;
+}
+
+#navbar {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  background-color: purple;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1100px;
+  padding: 20px 30px;
+  border: solid black 5px;
+}
+
+#logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+#logo-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#links a:hover {
+  cursor: pointer;
+  color: purple;
+}
+
+#links a:active {
+  cursor: pointer;
+  color: purple;
+  opacity: 0.6;
+}
+
+section {
+  width: 100%;
+  padding: 40px 40px;
+  border: solid black 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+#about {
+  width: 80%;
+  margin-top: 130px;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: purple;
+  color: white;
+}
+
+.intro-left {
+  width: 500px;
+  padding: 20px;
+}
+
+#myphoto {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: solid white 5px;
+}
+
+
+#projects {
+  width: 80%;
+  margin-top: 100px;
+  background-color: purple;
+  height: 800px;
+  margin-left: 5%;
+}
+
+h3{
+  color: white;
+  margin-bottom: 30px;
+}
+
+p{
+  color: white;
+  margin-bottom: 30px;
+}
+
+#pgrid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.project-grid{
+  background-color: rgb(97, 205, 241);
+  border: black solid 3px;
+  border-radius: 3px;
+  padding: 10px 10px;
+}
+.imgp{
+  height: 250px;
+  width: 300px;
+  object-fit: cover;
+  border: white solid 5px;
+  border-radius: 5px;
+}
+
+#skills {
+  width: 80%;
+  margin-top: 100px;
+  background-color: purple;
+  height: 850px;
+  margin-left: 5%;
+}
+.sp{
+  font-size: small;
+}
+#sgrid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+#skills-grid{
+  background-color:rgb(97, 205, 241);
+  border: black solid 3px;
+  border-radius: 3px;
+  width: 310px;
+  height: 350px;
+  padding: 10px 10px;
+}
+.imgs{
+  height: 250px;
+  width: 300px;
+  object-fit: cover;
+  border: white solid 5px;
+  border-radius: 5px;
+}
+
+
+#contact {
+  width: 80%;
+  height: 400px;
+  margin-top: 100px;
+  margin-left: 5%;
+  background-color: purple;
+  display: flex;
+}
+
+#contact-box{
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin-right: 400px;
+  background-color: rgb(6, 188, 248);
+  padding: 30px 30px;
+  border: white solid 3px;
+  border-radius: 3px;
+}
+input{
+  width: 100%;
+  margin-top:10px ;
+  border: solid gray 2px;
+  border-radius: 3px;
+}
+textarea{
+  margin-top: 10px;
+  height: 150px;
+  width: 100%;
+  border: solid gray 2px;
+  border-radius: 3px;
+}
+
+button{
+  margin-top: 10px;
+  margin-left: 30px;
+  width: 60px;
+  height: 20px;
+  width: 80%;
+  height: 35px;
+  background-color: yellow;
+  border: white solid 2px;
+  border-radius: 2px;
+}
+
+button:hover{
+  cursor: pointer;
+  color: white;
+  background-color: purple;
+}
+button:active{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.media{
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: yellow;
+  margin-bottom: 20px;
+  padding: 20px 20px;
+  border: white solid 3px;
+  border-radius: 3px;
+}
+
+
+.imgm{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: white solid white;
+  object-fit: cover;
+}
+
+a:hover{
+  cursor: pointer;
+}
+.mlink{
+  color: black;
+}
